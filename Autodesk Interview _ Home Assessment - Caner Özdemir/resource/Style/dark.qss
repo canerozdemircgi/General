@@ -1,0 +1,387 @@
+QWidget
+{
+	background: #444;
+	color: #ccc;
+}
+
+QFrame:disabled
+{
+	color: #888;
+}
+
+QLabel
+{
+	selection-background-color: #f0f0f0;
+	selection-color: #101010;
+}
+
+QPushButton
+{
+	background: #444;
+	border: 1px solid #888;
+	border-radius: 2px;
+}
+
+QPushButton:hover
+{
+	background: #888;
+	border: 1px solid #888;
+	color: #111;
+}
+
+QPushButton:pressed,
+QPushButton:checked
+{
+	background: #666;
+	border: 1px solid #aaa;
+	color: #ccc;
+}
+
+QPushButton::menu-indicator
+{
+	background: none;
+}
+
+QPushButton:disabled
+{
+	background: #666;
+	border: 1px solid #666;
+	color: #888;
+}
+
+QCheckBox:disabled,
+QRadioButton:disabled,
+QMenu::item:disabled
+{
+	color: #888;
+}
+
+QCheckBox::indicator:checked:hover,
+QCheckBox::indicator:unchecked:hover,
+QRadioButton::indicator:checked:hover,
+QRadioButton::indicator:unchecked:hover,
+QSpinBox:hover,
+QDoubleSpinBox:hover,
+QLineEdit:hover,
+QComboBox:hover
+{
+	border: 1px solid #884;
+}
+
+QCheckBox::indicator:checked:focus,
+QCheckBox::indicator:unchecked:focus,
+QRadioButton::indicator:checked:focus,
+QRadioButton::indicator:unchecked:focus,
+QSpinBox:focus,
+QDoubleSpinBox:focus,
+QLineEdit:focus,
+QComboBox:focus
+{
+	border: 1px solid #484;
+}
+
+QCheckBox::indicator:disabled,
+QRadioButton::indicator:disabled,
+QSpinBox::up-button:disabled,
+QDoubleSpinBox::up-button:disabled,
+QSpinBox::down-button:disabled,
+QDoubleSpinBox::down-button:disabled,
+QComboBox::drop-down:disabled,
+QComboBox::down-arrow:disabled,
+QSpinBox::up-button:pressed,
+QDoubleSpinBox::up-button:pressed,
+QSpinBox::down-button:pressed,
+QDoubleSpinBox::down-button:pressed,
+QComboBox::drop-down:pressed,
+QComboBox::down-arrow:pressed
+{
+	background: #444;
+}
+
+QCheckBox::indicator
+{
+	background: #2b2b2b;
+	border: 1px solid #2b2b2b;
+	border-radius: 2px;
+	width: 9px;
+	height: 9px;
+	padding: 2px;
+}
+
+QCheckBox::indicator:checked
+{
+	image: url(:/Button/Check.png);
+}
+
+QCheckBox::indicator:checked:disabled
+{
+	image: url(:/Button/Check-Disabled.png);
+}
+
+QRadioButton::indicator
+{
+	background: #2b2b2b;
+	border: 1px solid #2b2b2b;
+	border-radius: 7px;
+	width: 7px;
+	height: 7px;
+	padding: 3px;
+}
+
+QRadioButton::indicator:checked
+{
+	image: url(:/Button/Radio.png);
+}
+
+QRadioButton::indicator:checked:disabled
+{
+	image: url(:/Button/Radio-Disabled.png);
+}
+
+QLineEdit
+{
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
+QSpinBox,
+QDoubleSpinBox,
+QLineEdit
+{
+	selection-background-color: #ccc;
+	selection-color: #448;
+}
+
+QSpinBox,
+QDoubleSpinBox,
+QLineEdit,
+QComboBox
+{
+	background: #2b2b2b;
+	border: 1px solid #2b2b2b;
+	border-radius: 2px;
+}
+
+QSpinBox:disabled,
+QDoubleSpinBox:disabled,
+QLineEdit::disabled,
+QComboBox:disabled
+{
+	background: #444;
+	color: #888;
+}
+
+QSpinBox::up-button:hover,
+QDoubleSpinBox::up-button:hover,
+QSpinBox::down-button:hover,
+QDoubleSpinBox::down-button:hover,
+QComboBox::drop-down:hover,
+QComboBox::down-arrow:hover
+{
+	background: #666;
+}
+
+QSpinBox::up-button,
+QDoubleSpinBox::up-button,
+QSpinBox::down-button,
+QDoubleSpinBox::down-button,
+QComboBox::drop-down
+{
+	background: #555;
+	width: 14px;
+	subcontrol-origin: padding;
+}
+
+QSpinBox::up-button,
+QDoubleSpinBox::up-button
+{
+	subcontrol-position: top right;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+}
+
+QSpinBox::down-button,
+QDoubleSpinBox::down-button
+{
+	subcontrol-position: bottom right;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+QSpinBox::up-arrow,
+QDoubleSpinBox::up-arrow
+{
+	width: 6px;
+	height: 6px;
+	image: url(:/Direction/Up.svg);
+}
+
+QSpinBox::down-arrow,
+QDoubleSpinBox::down-arrow,
+QComboBox::down-arrow
+{
+	width: 6px;
+	height: 6px;
+	image: url(:/Direction/Down.svg);
+}
+
+QSpinBox::up-arrow:disabled,
+QSpinBox::up-arrow:off,
+QDoubleSpinBox::up-arrow:disabled,
+QDoubleSpinBox::up-arrow:off
+{
+	image: url(:/Direction/Up-Disabled.svg);
+}
+
+QSpinBox::down-arrow:disabled,
+QSpinBox::down-arrow:off,
+QDoubleSpinBox::down-arrow:disabled,
+QDoubleSpinBox::down-arrow:off,
+QComboBox::down-arrow:disabled
+{
+	image: url(:/Direction/Down-Disabled.svg);
+}
+
+QComboBox QListView,
+QMenu,
+QToolTip
+{
+	background: #444;
+	border: 1px solid #888;
+	color: #ccc;
+	border-radius: 2px;
+}
+
+QMenu::icon
+{
+	left: 5px;
+}
+
+QMenu::item
+{
+	height: 25px;
+	padding: 0 20px;
+}
+
+QMenuBar>QMenu::item
+{
+	height: 30px;
+}
+
+QMenu::item:selected,
+QMenuBar::item:selected
+{
+	background: #2b2b2b;
+}
+
+QMenu::separator
+{
+	background: #888;
+	height: 1px;
+	margin: 10px;
+}
+
+QMenuBar
+{
+	min-height: 24px;
+	spacing: 0;
+	background: #505050;
+}
+
+QMenuBar::item
+{
+	border: none;
+	padding: 2px 10px;
+}
+
+QScrollArea
+{
+	border: 1px solid #888;
+}
+
+QAbstractScrollArea::corner
+{
+	background: transparent;
+}
+
+QScrollBar:horizontal,
+QScrollBar:vertical
+{
+	background: #444;
+}
+
+QScrollBar:horizontal
+{
+	height: 20px;
+	margin: 0px 25px;
+	border-top: 1px solid #888;
+	border-bottom: none;
+	border-left: 1px solid #888;
+	border-right: 1px solid #888;
+}
+
+QScrollBar:vertical
+{
+	width: 20px;
+	margin: 25px 0px;
+	border-top: 1px solid #888;
+	border-bottom: 1px solid #888;
+	border-left: 1px solid #888;
+	border-right: none;
+}
+
+QScrollBar::handle:horizontal,
+QScrollBar::handle:vertical
+{
+	background: #555;
+}
+
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal,
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical
+{
+	width: 10px;
+	height: 10px;
+	subcontrol-origin: margin;
+}
+
+QScrollBar::add-line:horizontal
+{
+	image: url(:/Direction/Right.svg);
+	margin-right: 5px;
+	subcontrol-position: right;
+}
+
+QScrollBar::sub-line:horizontal
+{
+	image: url(:/Direction/Left.svg);
+	margin-left: 5px;
+	subcontrol-position: left;
+}
+
+QScrollBar::add-line:vertical
+{
+	image: url(:/Direction/Down.svg);
+	margin-bottom: 5px;
+	subcontrol-position: bottom;
+}
+
+QScrollBar::sub-line:vertical
+{
+	image: url(:/Direction/Up.svg);
+	margin-top: 5px;
+	subcontrol-position: top;
+}
+
+QColorDialog QPushButton
+{
+	min-width: 50px;
+	padding: 5px 10px;
+}
+
+QColorDialog QSpinBox,
+QColorDialog QLineEdit
+{
+	padding: 3px;
+}

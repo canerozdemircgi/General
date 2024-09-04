@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+	<class>Main_QMenuBar</class>
+	<widget class="QMenuBar" name="Main_QMenuBar">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>160</width>
+				<height>21</height>
+			</rect>
+		</property>
+		<property name="font">
+			<font>
+				<pointsize>9</pointsize>
+			</font>
+		</property>
+		<property name="nativeMenuBar">
+			<bool>false</bool>
+		</property>
+		<widget class="QMenu" name="File_QMenu">
+			<property name="geometry">
+				<rect>
+					<x>331</x>
+					<y>139</y>
+					<width>117</width>
+					<height>92</height>
+				</rect>
+			</property>
+			<property name="minimumSize">
+				<size>
+					<width>110</width>
+					<height>0</height>
+				</size>
+			</property>
+			<property name="title">
+				<string>File</string>
+			</property>
+			<addaction name="Open_QAction" />
+		</widget>
+		<addaction name="File_QMenu" />
+		<action name="Open_QAction">
+			<property name="text">
+				<string>Open</string>
+			</property>
+		</action>
+	</widget>
+	<resources />
+	<connections />
+</ui>

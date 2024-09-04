@@ -1,0 +1,26 @@
+<RCC>
+	<qresource prefix="/Window">
+		<file>Window/Icon.svg</file>
+	</qresource>
+	<qresource prefix="/">
+		<file>Background/Black.png</file>
+		<file>Background/Green.png</file>
+	</qresource>
+	<qresource prefix="/">
+		<file>Button/Pen.svg</file>
+		<file>Button/Eraser.svg</file>
+	</qresource>
+	<qresource prefix="/">
+		<file>Direction/Down.svg</file>
+		<file>Direction/Down-Disabled.svg</file>
+		<file>Direction/Up.svg</file>
+		<file>Direction/Up-Disabled.svg</file>
+		<file>Direction/Left.svg</file>
+		<file>Direction/Left-Disabled.svg</file>
+		<file>Direction/Right.svg</file>
+		<file>Direction/Right-Disabled.svg</file>
+	</qresource>
+	<qresource prefix="/">
+		<file>Style/dark.qss</file>
+	</qresource>
+</RCC>
